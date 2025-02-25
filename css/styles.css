@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/mowing.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h2{
+    font-size: 72px;
+    margin-bottom: 36px;
+    color: white
+}
+
+#hero h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 25px;
+}
+
+#hero .hero-content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-us-section {
+
+}
+
+@media screen and (max-width: 750px) {
+    #hero {
+        background-image: url("../images/mowing.jpeg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #hero h2{
+        font-size: 55px;
+        margin-bottom: 36px;
+        color: white
+    }
+    
+    #hero h4 {
+        font-size: 24px;
+        margin: 0px;
+    }
+    
+    #hero a {
+        font-size: 14px;
+        display: inline-block;
+        background-color: #333333;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+        margin-right: 12px;
+        margin-left: 12px;
+        border-radius: 25px;
+    }
+    
+    #hero .hero-content {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .about-us-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about-us-header {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .what-we-do-header {
+        margin-left: 25px;
+    }
+
+    .what-we-do-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .contact-us-sections {
+        background-color: #333333;
+        height: 100vh;
+        padding-bottom: 1000px;
+    }
+
+    .contact-us-header {
+        color: white;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .form-style {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .form-style .form-group label {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
