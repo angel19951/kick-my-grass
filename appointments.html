@@ -61,10 +61,10 @@
 
         <div class="contact-us-sections">
             <div class="contact-us-header">
-                <h2>Get an appointment</h2>
+                <h2>Set an appointment</h2>
             </div>
 
-            <form class="form-style">
+            <form class="form-style" id="contact-form">
                 <div class="form-group row">
                     <label 
                         for="inputName"
@@ -91,7 +91,7 @@
                             type="tel"
                             class="form-control"
                             id="inputPhoneNumber"
-                            placeholder="Phone Number"
+                            placeholder="123-456-7890"
                             pattern="[09]{3}-[0-9]{3}-[0-9]{4}"
                             required
                         >
@@ -193,6 +193,7 @@
                 Submit
                 </button>
             </form>
+            <script src="./scripts/contact.js"></script>
         </div>
     </body>
 </html>
