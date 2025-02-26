@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kick My Grass</title>
+        <link 
+            rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+            crossorigin="anonymous"
+        />
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+        />
+        <link href="css/styles.css" rel="stylesheet">
+        <script 
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+            crossorigin="anonymous">
+        </script>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+            crossorigin="anonymous">
+        </script>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+            crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <span class="mb-0 h2">Kick My Grass</span>
+            </a>
+            <i 
+                class="fa-solid fa-bars navbar-toggles"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle Navigation"
+            >
+            </i>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link active" href="about-us.html">About Us</a>
+                    <a class="nav-item nav-link" href="appointments.html">Appointments</a>
+                </div>
+            </div>
+        </nav>
+        <div class="about-us-section">
+            <div class="about-us-header">
+                <h2>About Kick My Grass</h3>
+            </div>
+            <hr>
+            <div class="what-we-do-header">
+                <h4>What we do:</h4>
+                <hr>
+            </div>
+            <div class="what-we-do-content">
+                <p>
+                    At Kick My Grass, we provide professional lawn care and 
+                    mowing services that transform your outdoor space into a 
+                    beautifuly maintained oasis. 
+                    <br>
+                    With over five years of experience, our team is dedicated to
+                    delivering top-notch result every single time.
+                </p>
+                <p>
+                    Whether you're looking for regular mowing, trimming, sesonal
+                    clean-ups, we treat every lawn like it's our own, ensuring
+                    your yard looks its best all year-round. We take pride in 
+                    offering reliable, affordable, and efficient services that
+                    exceed our client's expectations.
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-us-sections">
+            <div class="contact-us-header">
+                <h2>Contact Us</h2>
+            </div>
+
+            <form class="form-style">
+                <div class="form-group row">
+                    <label 
+                        for="inputName"
+                        class="col-sm-2 col-form-label"
+                    >
+                        Name:
+                    </label>
+                    <div class="col-sm-10">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="inputName"
+                            placeholder="Name"
+                        >
+                    </div>
+                    <label 
+                        for="inputPhoneNumber"
+                        class="col-sm-2 col-form-label"
+                    >
+                        Phone Number:
+                    </label>
+                    <div class="col-sm-10">
+                        <input 
+                            type="tel"
+                            class="form-control"
+                            id="inputPhoneNumber"
+                            placeholder="Phone Number"
+                            pattern="[09]{3}-[0-9]{3}-[0-9]{4}"
+                            required
+                        >
+                    </div>
+                    <label 
+                        for="inputEmail"
+                        class="col-sm-2 col-form-label"
+                    >
+                        Email:
+                    </label>
+                    <div class="col-sm-10">
+                        <input 
+                            type="email"
+                            class="form-control"
+                            id="inputEmail"
+                            placeholder="Email"
+                        >
+                    </div>
+                    <label
+                        for="inputAddress1"
+                        class="col-sm-2 col-form-label"
+                    >
+                    Address:
+                    </label>
+                    <div class="col-sm-10">
+                        <input 
+                            type="text"
+                            class="form-control"
+                            id="inputAddress1"
+                            placeholder="Address"
+                        >
+                    </div>
+                    <label
+                        for="inputCity"
+                        class="col-sm-2 col-form-label"
+                    >
+                        City:
+                    </label>
+                    <div class="col-sm-10">
+                        <input 
+                            type="text"
+                            class="form-control"
+                            id="inputCity"
+                            placeholder="City"
+                        >
+                    </div>
+
+                    <fieldset disabled>
+                        <label
+                            for="inputState"
+                            class="col-sm-2 col-form-label"
+                        >
+                            State:
+                        </label>
+                        <div class="col-sm-10">
+                            <input 
+                                type="text"
+                                class="form-control"
+                                id="inputState"
+                                placeholder="Florida"
+                            >
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <label
+                            for="inputZip"
+                            class="col-sm-2 col-form-label"
+                        >
+                            Zip Code:
+                        </label>
+                        <div class="col-sm-10">
+                            <input 
+                                type="text"
+                                class="form-control"
+                                id="inputZip"
+                                placeholder="Zip Code"
+                            >
+                        </div>
+                    </fieldset>
+                    <label
+                        for="inputService"
+                        class="col-sm-2 col-form-label"
+                    >
+                        Service Required:
+                    </label>
+                    <div class="col-sm-10">
+                        <textarea
+                            class="form-control"
+                            id="inputState"
+                            placeholder="Service Required"
+                        >
+                        </textarea>
+                    </div>
+                </div>
+                <button 
+                    class="btn btn-primary"
+                    type="submit"
+                >
+                Submit
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
