@@ -26,8 +26,8 @@ main {
   grid-column-gap: 20px;
 }
 
-.three-columns > span,
-.four-columns > span {
+.three-columns>span,
+.four-columns>span {
   font-size: 12px;
   float: right;
   padding: 5px 10px 0 0;
@@ -43,8 +43,8 @@ main {
   width: 100%;
 }
 
-.three-columns > div div,
-.four-columns > div div {
+.three-columns>div div,
+.four-columns>div div {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -52,8 +52,8 @@ main {
   width: 110%;
 }
 
-.three-columns > div > span,
-.four-columns > div > span {
+.three-columns>div>span,
+.four-columns>div>span {
   background-color: var(--white);
   float: right;
   position: relative;
@@ -63,8 +63,8 @@ main {
   border-bottom: 1px solid black;
 }
 
-.three-columns > div,
-.four-columns > div {
+.three-columns>div,
+.four-columns>div {
   position: relative;
   overflow: hidden;
   border: 1px solid var(--dark-blue);
@@ -89,7 +89,7 @@ footer {
   padding: 10px;
 }
 
-footer > div {
+footer>div {
   display: grid;
   grid-template-columns: repeat(4, 25%);
 }
@@ -107,7 +107,7 @@ footer li {
   text-align: center;
 }
 
-footer > p {
+footer>p {
   text-align: center;
 }
 
@@ -118,7 +118,7 @@ header nav a {
   text-align: center;
 }
 
-header > div {
+header>div {
   max-width: 1100px;
   position: relative;
   margin: 0 auto;
@@ -132,7 +132,7 @@ footer a {
   line-height: 22px;
 }
 
-footer > div {
+footer>div {
   max-width: 1100px;
   margin: 5px auto 20px auto;
   display: grid;
@@ -164,7 +164,7 @@ nav {
   grid-column-gap: 20px;
 }
 
-.companies > ul {
+.companies>ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -198,9 +198,7 @@ main {
 
 main .masthead {
   height: 450px;
-  background: transparent
-    url('../images/mowing.jpeg')
-    no-repeat 50% fixed;
+  background: transparent url('../images/mowing.jpeg') no-repeat 50% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -377,18 +375,18 @@ main .masthead {
     overflow: auto;
   }
 
-  .three-columns > div:nth-child(1) {
+  .three-columns>div:nth-child(1) {
     float: left;
     width: calc(50% - 10px);
     margin-right: 20px;
   }
 
-  .three-columns > div:nth-child(2) {
+  .three-columns>div:nth-child(2) {
     float: right;
     width: calc(50% - 10px);
   }
 
-  .three-columns > div:last-child {
+  .three-columns>div:last-child {
     float: left;
     width: 100%;
     margin-top: 20px;
@@ -453,13 +451,13 @@ main .masthead {
     overflow: unset;
   }
 
-  .three-columns > div {
+  .three-columns>div {
     float: none !important;
     width: unset !important;
     margin: 0 !important;
   }
 
-  .three-columns > div:nth-child(2) {
+  .three-columns>div:nth-child(2) {
     margin: 20px 0 !important;
   }
 
@@ -474,7 +472,7 @@ main .masthead {
     top: 0;
   }
 
-  footer > div {
+  footer>div {
     display: flex;
     flex-direction: column;
     grid-row-gap: 10px;
@@ -492,6 +490,7 @@ main .masthead {
     grid-template-columns: repeat(5, calc(20% - 30px));
     grid-column-gap: 30px;
   }
+
   .mobile-menu {
     width: 100%;
     top: 80px;
